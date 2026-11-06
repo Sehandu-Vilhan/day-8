@@ -21,16 +21,22 @@
 
 // console.log(num1);
 // console.log(num2);
-
-let ar = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-
-ar.push(10);
-ar.pop();
+let array = [10,20,30,40,50,60,70,80,90,100];
 
 
 
 
+function addnumber(){
+    
+    let loc = parseInt(document.getElementById("txtloc").value);
+    let num1 =parseInt(document.getElementById("txtnum").value);
 
-//console.log(ar.toReversed);
-console.log(ar);
+    // let location = array.indexOf(loc);
+    
+
+    let location = array.indexOf(loc);
+
+    array [location] = num1;
+
+    console.log(array);
+}
