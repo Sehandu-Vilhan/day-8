@@ -26,23 +26,34 @@
 
 
 
-// function addnumber(){
+function addnumber(){
 
-//     let loc = parseInt(document.getElementById("txtloc").value);
-//     let num1 =parseInt(document.getElementById("txtnum").value);
+    // let loc = parseInt(document.getElementById("txtloc").value);
+    // let num1 =parseInt(document.getElementById("txtnum").value);
 
-//     // let location = array.indexOf(loc);
-
-
-//     let location = array.indexOf(loc);
-
-//     array [location] = num1;
-
-//     console.log(array);
+    // // let location = array.indexOf(loc);
 
 
-//     document.getElementById("lbl").innerText = array.join(", ");
-// }
+    // let location = array.indexOf(loc);
+
+    // array [location] = num1;
+
+    // console.log(array);
+
+
+    // document.getElementById("lbl").innerText = array.join(", ");
+
+
+
+
+
+    Swal.fire({
+  icon: "error",
+  title: "Oops...",
+  text: "Something went wrong!",
+  footer: "<a href=\"#\">Why do I have this issue?</a>"
+});
+}
 
 
 
@@ -116,6 +127,40 @@ let salary = [75000, 80000, 90000, 100000, 120000, 150000];
 // console.log(newSalary);
 
 
-console.log(salary.map(newSalary => newSalary * 2));
 
+
+
+const products = [
+    {
+        id: 1,
+        name: "bun",
+        price: 100
+    },
+    {
+        id: 2,
+        name: "cake",
+        price: 200
+    },
+    {
+        id: 3,
+        name: "bread",
+        price: 150
+    },
+    {
+        id: 4,
+        name: "milk",
+        price: 250
+    },
+    {
+        id: 5,
+        name: "egg",
+        price: 30
+    }
+];
+
+
+console.log(salary.map(newSalary => newSalary * 2));
 console.log(namelist.map(newname => " welcome " + newname));
+
+console.log(products.map(productswithtax => productswithtax.price * 1.15));
+
