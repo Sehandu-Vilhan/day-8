@@ -21,7 +21,7 @@
 
 // console.log(num1);
 // console.log(num2);
-let array = [10,20,30,40,50,60,70,80,90,100];
+let array = [10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200];
 
 
 
@@ -39,4 +39,47 @@ function addnumber(){
     array [location] = num1;
 
     console.log(array);
+
+
+    document.getElementById("lbl").innerText = array.join(", ");
 }
+
+
+
+
+
+//  step 1
+
+// function getsum(num1 , num2){
+//  return num1 + num2;
+
+// }
+
+
+//  step 2
+
+// let getsum = function(num1 ,num2){
+//     return num1, num2;
+
+// }
+
+
+// step 3 
+
+// let getsum = (num1 , num2) => {
+//     return num1 + num2;
+// }
+
+
+
+// step 4 
+
+// let getsum = (num1 , num2) => {
+//     return num1 ;
+// }
+
+
+
+let getsum = num1 => num1   ;
+
+console.log(getsum(10,20));
