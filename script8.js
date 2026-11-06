@@ -4,7 +4,7 @@
 // let num = 10;
 // console.log(num);
 
-kgkgkg 
+
 
 //     let num1 = 122;
 //     var num2 = 1244;
@@ -164,3 +164,4 @@ console.log(namelist.map(newname => " welcome " + newname));
 
 console.log(products.map(productswithtax => productswithtax.price * 1.15));
 
+// dddddddddddddad a d
