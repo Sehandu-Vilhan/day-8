@@ -164,4 +164,3 @@ console.log(namelist.map(newname => " welcome " + newname));
 
 console.log(products.map(productswithtax => productswithtax.price * 1.15));
 
-jdjd jd d ,dk ,wdk ,s
