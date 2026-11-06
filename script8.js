@@ -21,28 +21,28 @@
 
 // console.log(num1);
 // console.log(num2);
-let array = [10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200];
+// let array = [10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200];
 
 
 
 
-function addnumber(){
-    
-    let loc = parseInt(document.getElementById("txtloc").value);
-    let num1 =parseInt(document.getElementById("txtnum").value);
+// function addnumber(){
 
-    // let location = array.indexOf(loc);
-    
+//     let loc = parseInt(document.getElementById("txtloc").value);
+//     let num1 =parseInt(document.getElementById("txtnum").value);
 
-    let location = array.indexOf(loc);
-
-    array [location] = num1;
-
-    console.log(array);
+//     // let location = array.indexOf(loc);
 
 
-    document.getElementById("lbl").innerText = array.join(", ");
-}
+//     let location = array.indexOf(loc);
+
+//     array [location] = num1;
+
+//     console.log(array);
+
+
+//     document.getElementById("lbl").innerText = array.join(", ");
+// }
 
 
 
@@ -80,6 +80,42 @@ function addnumber(){
 
 
 
-let getsum = num1 => num1   ;
+// let getsum = num1 => num1   ;
 
-console.log(getsum(10,20));
+// console.log(getsum(10,20));
+
+
+ const namelist = ["saman","kamal","naml","ranil"];
+// namelist.forEach(cname => console.log(cname));
+
+
+
+
+
+
+
+let salary = [75000, 80000, 90000, 100000, 120000, 150000];
+
+
+
+
+
+
+
+
+    // for (let i = 0; i < salary.length; i++) {
+
+    //     newSalary.push(salary[i] * 2);
+
+    // }
+
+
+
+
+// console.log(salary);
+// console.log(newSalary);
+
+
+console.log(salary.map(newSalary => newSalary * 2));
+
+console.log(namelist.map(newname => " welcome " + newname));
